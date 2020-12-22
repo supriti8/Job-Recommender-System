@@ -1,6 +1,7 @@
 # Job-Recommender-System
 Data Description: Using a data set with columns as jobId, userId, job_category and number of clicks to build a recommender system model.
 Domain: Online recruitment consultancy
+Dataset: https://drive.google.com/drive/folders/1Pz-5NfqoiQRcXx8gqlfz--ZVSugb0MMe
 
 Problem statement: XYZ .Inc. is similar to naukri.com/indeed.com, where people upload their resumes and check what are the other jobs available to them, The CEO of the company wants to take this further and wants to introduce a premium feature called Personalized Job recommendation system. The CEO has gathered some data ( around 466 Users ) and is looking for a candidate to build this recommender system.
 
