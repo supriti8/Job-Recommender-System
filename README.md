@@ -9,6 +9,8 @@ Attribute Information: ● userId : Every user identified with a unique id ● j
 
 Learning Outcomes: ● Exploratory Data Analysis ● Creating a Recommendation system using real data 
 
+On e-commerce sites, based on your past purchases or the items that you would have looked up in the past, you are often recommended certain items. These are based on content-based filtering. Here, based on the number of clicks against each job id and job category,  jobs most suited for the user are recommended. The top 5 job ids along with the category are shown to the user. 
+
 Objective: Build a recommendation system to recommend jobs to customers based on the their previous clicks for other jobs.
 
 Steps and tasks:
@@ -19,4 +21,8 @@ Built User-based similarity model.
 Built Item-based similarity model.
 Evaluated both the models. 
 After the model is trained on the training data, it is used to compute the error (RMSE) on predictions made on the test data.
-A final data set is created with userIds as columns and top 15 job ids to recommend to the user as rows.
+A UI using streamlit is created with userIds as columns and top 5 job ids to recommend to the user.
+
+Inorder to use streamlit, 
+* please use pip install streamlit
+* use the pathway of the stored files and run app.py to view the UI created.
